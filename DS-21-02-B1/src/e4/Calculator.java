@@ -39,7 +39,7 @@ public class Calculator {
 
     public float executeOperations() {
         Operadores aux;
-        float result=0;
+        float result;
         aux=operators.get(0);
 
         if (value1.get(1)==0 && aux==Operadores.DIVISION){cleanOperations();throw new ArithmeticException();}
